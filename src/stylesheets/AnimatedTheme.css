@@ -1,0 +1,10 @@
+.animated-theme {
+    display: block;
+    position: fixed;
+    border-radius: 50%;
+    background-color: var(--bg-color);
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    z-index: 99;
+    animation: 1s ease-in-out;
+}
